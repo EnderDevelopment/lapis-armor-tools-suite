@@ -1,0 +1,14 @@
+name: LapisGear
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Adds a complete lapis lazuli tools and armor set.
+commands:
+  lapisgear:
+    description: Gives you the lapis lazuli equipment set.
+    usage: /lapisgear
+    permission: lapisgear.give
+permissions:
+  lapisgear.give:
+    description: Allows the player to receive the lapis lazuli equipment set.
+    default: op
